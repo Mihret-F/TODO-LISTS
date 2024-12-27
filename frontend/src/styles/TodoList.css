@@ -1,0 +1,36 @@
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .todo-item span {
+    cursor: pointer;
+  }
+  
+  .todo-item span.completed {
+    text-decoration: line-through;
+    color: #777;
+  }
+  
+  .todo-item button {
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .todo-item button:hover {
+    background: #c82333;
+  }
+  
